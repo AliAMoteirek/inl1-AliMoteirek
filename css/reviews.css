@@ -1,0 +1,44 @@
+.rewiews{
+    overflow: hidden;
+  }
+
+  .rewiews h1{
+      text-align: center;
+      font-size: 40px;
+      line-height: 1.5;
+      color: #222529;
+  }
+  
+  .rewiews div{
+    width: 50%;
+    float: left;
+    text-align: center;
+    /*padding: 50px 20px 40px 20px;*/
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  
+  .rewiews img{
+    width: 200px;
+    border-radius: 0;
+  }
+  
+  img.star{
+    width: 50px;
+    border-radius: 0;
+    display: inline-block;
+  }
+
+  .rewiews blockquote{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'David Libre';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.15;
+    max-width: 400px;
+    margin: 15px auto 5px auto;
+  }
+  

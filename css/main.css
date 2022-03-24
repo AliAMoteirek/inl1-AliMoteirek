@@ -1,0 +1,199 @@
+* {box-sizing: border-box}
+
+body{
+    font-family: 'Biryani', 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+    margin:0 auto ;
+}
+
+.container{
+    max-width: 960px;
+    margin:0 auto ;
+}
+
+section{
+    margin-bottom: 60px;
+}
+section.hero{
+    background-color: #222529;
+    border-top: solid 5px #a4abab;
+}
+
+header{
+    color: #a4abab;
+    text-transform: uppercase;
+}
+nav ul{
+    padding-left: 0;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+header a, .inner-container a{
+    color: #a4abab;
+    text-decoration: none;
+}
+
+header a:hover, .inner-container a:hover, .copyright:hover{
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+header nav a.selected{
+    color: #fff;
+}
+
+i.fa-solid.fa-car::before{
+    font-size: 25px;
+}
+
+.natural{
+    background: url(../images/image03.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+    padding-right: 260px;
+    position: relative;
+}
+
+.natural h2{
+    font-size: 64px;
+    line-height: 1.125;
+    font-weight: 700;
+    text-align: center;
+    color: #222529;
+}
+
+.natural .copy{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    left:30%;
+    width: 360px;
+    transform: translateY(-50%);
+    margin: 0;
+}
+
+.one-thing{
+    padding-left: 320px;
+    position: relative;
+}
+
+.one-thing img{
+    border-radius: 50%;
+    width: -webkit-fill-available; 
+}
+
+.one-thing .copy{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 480px;
+}
+
+.one-thing h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+    color: #222529;
+}
+
+.one-thing p{
+    font-size: 29px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.natural h2{
+    transition: transform 0.5s ease;
+}
+
+.natural:hover h2{
+    transform: scale(1.15);
+}
+
+.one-thing  .copy,
+.one-thing img{
+    transition: transform 0.5s ease;
+}
+
+.one-thing:hover .copy{
+    transform: scale(1.1) translateX(20px);
+}
+
+.one-thing:hover img{
+    transform: rotate(10deg);
+}
+
+.lookbook{
+    padding: 220px 20px 180px 20px;
+    background-image: url(../images/image04edit.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.lookbook h2{
+    font-size: 64px;
+    color: #222529;
+    font-weight: 700;
+}
+
+.lookbook h2{
+    transition: transform 0.5s ease;
+}
+
+.lookbook:hover h2{
+    transform: scale(0.8);
+    color: rgba(34, 37, 41, 0.8);
+}
+
+footer div.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222529;
+    color: #a4abab;
+}
+
+div.inner-container{
+    padding-left: 40px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer img{
+    position: absolute;
+    color: #a4abab;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 0;
+}
+
+footer nav a{
+    width: 16px;
+    margin-left: 5px;
+}
+
+
+
+
+

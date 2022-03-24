@@ -1,0 +1,43 @@
+
+header{
+    margin-bottom: 60px;
+}
+
+.one-thing img{
+  border-radius:0%;
+  width: -webkit-fill-available; 
+  opacity: 0.5;
+}
+
+.one-thing h3, .one-thing p{
+  color: #222529;
+}
+
+
+.quotes{
+  overflow: hidden;
+}
+
+.quotes div{
+  width: 50%;
+  float: left;
+  text-align: center;
+  /*padding: 50px 20px 40px 20px;*/
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+
+.quotes img{
+  width: 200px;
+  border-radius: 100%;
+}
+
+.quotes blockquote{
+  font-family: 'David Libre';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.15;
+  max-width: 400px;
+  margin: 15px auto 5px auto;
+}
